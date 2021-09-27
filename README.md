@@ -1,8 +1,6 @@
 
 # GitLab to GitHub migration
 
-### The `.env` file in th repo has been configured for Prop Data's needs already
-
 Migrate repositories, wikis, issues and milestones from GitLab to GitHub.
 
 ## Install
@@ -39,7 +37,7 @@ cake -l <gitlab-namespace>/<repo-name> -h <github-repo-name> migrate:issues
 cake -l <gitlab-namespace>/<repo-name> -h <github-repo-name> migrate:milestones
 
 # real example:
-cake -l propdata-custom/ReedStoneEstate -h reedstone.co.za migrate:repo
+cake -l myorg/myrepo -h myrepo migrate:repo
 
 ```
 
